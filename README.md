@@ -7,7 +7,7 @@
 ## Link para video de teste do projeto na versel
 [link do Video de teste do projeto](https://www.youtube.com/watch?v=ChH6qRO-crY).
 
-## Link para video de teste do projeto na versel
+## Link do projeto
 [link do projeto na versel](https://processo-supera-desafio2.vercel.app/).
 
 ### Projeto foi gerado com o angular cli (https://github.com/angular/angular-cli) versao 13.3.3
