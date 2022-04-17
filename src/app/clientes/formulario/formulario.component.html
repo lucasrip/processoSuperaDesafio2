@@ -1,0 +1,157 @@
+<form [formGroup]="formCliente"  >
+       <div class="formGroup" >
+         <label for="nome">nome</label>
+         <input 
+         type="text" 
+         class="form-control" 
+         name="nome" 
+         id="nome"   
+         (keyup)="verificaNome('nome')"
+         formControlName="nome"
+      
+         >
+       </div>
+
+       <div class="formGroup">
+        <label for="email">email</label>
+        <input 
+        type="email" 
+        class="form-control" 
+        name="email" 
+        id="email" 
+        formControlName="email"
+        minlength="30"
+        >
+        
+      </div>
+
+      <div class="formGroup">
+        <label for="idade">idade</label>
+        <input 
+        type="text" 
+        class="form-control" 
+        name="idade" 
+        id="idade" 
+        formControlName="idade"
+         maxlength="3"
+         minlength="1"
+         (keyup)="verificaIdade('idade')"
+        >
+      </div>
+
+      <div class="formGroup">
+        <label for="dataNasc">data de nascimento</label>
+        <input 
+        type="date" 
+        class="form-control" 
+        name="dataNasc" 
+        id="dataNasc" 
+        formControlName="dataNasc">
+      </div>
+
+      <div class="formGroup ganero">
+        <label for="genero">
+            Masculino
+            <input 
+            type="radio" 
+            class="form-control" 
+            name="genero" 
+            id="genero" 
+            value="masculino"
+            formControlName="genero"
+            >
+        </label>
+        <label for="feminino">
+            Feminino
+            <input 
+            type="radio" 
+            class="form-control" 
+            name="genero" 
+            id="feminino" 
+            value="feminino"
+            formControlName="genero"
+            >
+        </label>
+      
+      
+      </div>
+
+      <div class="formGroup">
+        <label for="cargo">cargo</label> 
+        <select 
+        class="form-control" 
+        name="cargo" 
+        id="cargo" 
+        formControlName="cargo"
+        >
+            <option value="front=end" selected>front-end</option>
+            <option value="back-end">back-end</option>
+            <option value="full stack">full stack</option>
+          </select>
+      </div>
+
+      <div class="formGroup">
+        <label for="qtd">quantidade</label>
+        <input 
+        type="number" 
+        class="form-control" 
+        name="qtd" 
+        id="qtd" 
+        formControlName="qtd"
+        (change)="verificaQtd('qtd')"
+        >
+      </div>
+
+      <div class="formGroup">
+        <label for="senha">senha</label>
+        <input 
+        type="password" 
+        class="form-control" 
+        name="senha" 
+        id="senha" 
+        formControlName="senha"
+        >
+      </div>
+      <div class="form-group">
+        <label for="notificaco">notificacao</label>
+        <input 
+        type="checkbox" 
+        class="form-control" 
+        name="notificacao" 
+        id="notificacao" 
+        formControlName="notificacao">
+      </div>
+      <div class="optionsContainer">
+          <div class="options">
+              <button 
+              type="submit" 
+              (click)="onSubmit()"
+              title="click para enviar os valores do campo"
+              >
+                  Enviar
+                </button>
+
+              <button 
+              (click)="this.habilitaCampos()"
+               title="click para liberar os campos para alteraçoes "
+              >
+                  alterar campos
+                </button>
+
+              <button 
+              (click)="limpaForm()"
+              title="click para limpar os campos" 
+              >
+                  Limpar
+                </button>
+          </div>
+           
+      </div>
+
+</form>
+
+<span class="mostraFeedback" >
+    <strong>
+        {{this.result}}
+    </strong>
+</span>
