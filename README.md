@@ -1,11 +1,18 @@
 # Formulario
 
-este o segundo desafio do processo seletivo supera feito em angular
+## Este o segundo desafio do processo seletivo supera feito em angular
 
+![print da tela inicial](https://github.com/lucasrip/processoSuperaDesafio2/blob/main/src/PrintsDesafio2/printScreen%20desafio2.png)
 
-###este projeto foi gerado com o angular cli (https://github.com/angular/angular-cli) versao 13.3.3
+## Link para video de teste do projeto na versel
+[link do Video de teste do projeto](https://www.youtube.com/watch?v=ChH6qRO-crY).
 
-##versao do node usado neste projeto v16.13.2
+## Link para video de teste do projeto na versel
+[link do projeto na versel](https://processo-supera-desafio2.vercel.app/).
+
+### Projeto foi gerado com o angular cli (https://github.com/angular/angular-cli) versao 13.3.3
+
+## Versao do node usado neste projeto v16.13.2
 ### para rodar esta projeto na sua maquia
 1. clone o repositorico em Code 
 2. abra o projeto no seu editor de codigo
