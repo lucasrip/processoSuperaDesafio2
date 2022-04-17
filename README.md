@@ -1,27 +1,18 @@
 # Formulario
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+este o segundo desafio do processo seletivo supera feito em angular
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###este projeto foi gerado com o angular cli (https://github.com/angular/angular-cli) versao 13.3.3
 
-## Code scaffolding
+##versao do node usado neste projeto v16.13.2
+### para rodar esta projeto na sua maquia
+1. clone o repositorico em Code 
+2. abra o projeto no seu editor de codigo
+3. use o comando npm install
+4. depois ng serve para inciciar o server local do projeto
+5. copie ou click no link de url mostrada no terminal exemplo localhost:4000
+6. seja feliz
+  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
